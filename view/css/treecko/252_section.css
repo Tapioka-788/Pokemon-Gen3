@@ -1,0 +1,108 @@
+section {
+    width: 100vw;
+    height: 83vh;
+
+    position: absolute;
+    top: 10vh;
+    left: 0;
+
+    background-color: rgb(255, 255, 255);
+
+    z-index: 1;
+}
+
+#mains {
+    width: 300vw;
+    height: 50vh;
+
+    position: absolute;
+    left: -100vw; 
+
+    margin-top: -10vh;
+
+    display: flex;
+}
+
+.mEstagio {
+    width: 100vw;
+    height: 50vh;
+
+    background-image: url(./../../../model/background_planta.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#grovyleImagem{
+    width: 25vw;
+    height: 35vh;
+
+    margin: 14vh 37.5vw 1vh;
+}
+
+#treeckoImagem{
+    width: 20vw;
+    height: 30vh;
+
+    margin: 19vh 40vw 1vh;
+}
+
+#sceptileImagem{
+    width: 30vw;
+    height: 40vh;
+
+    margin: 9vh 35vw 1vh;
+}
+
+#description {
+    width: 300vw;
+    height: 43vh;
+
+    position: absolute;
+    left: -100vw; 
+
+    margin-top: 40vh;
+
+    background-color: white;
+    border-top: solid 0.2vw black;
+    
+    display: flex;
+}
+
+.desc{
+    width: 40vw;
+    height: 39vh;
+
+    margin: 2vh 30vw;
+
+    background-color: rgba(200, 255, 200, 0.7);
+
+    border-radius: 2vw;
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.nome{
+    width: 15vw;
+    height: 4vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 1vw;
+    border: solid 0.2vw black ;
+
+    background-color: rgb(171, 254, 47);
+}
+
+.numero{
+    color: rgb(89, 89, 89);
+}
+
+.txt{
+    width: 30vw;
+    font-size: 1vw;
+}

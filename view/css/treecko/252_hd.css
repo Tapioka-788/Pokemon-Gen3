@@ -1,0 +1,41 @@
+header {
+    width: 100vw;
+    height: 10vh;
+
+    margin-top: 0vh;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    z-index: 10;
+}
+
+#familia {
+    width: 90vw;
+    height: 8vh;
+
+    margin: 1vh 5vw;
+
+    display: flex;
+    justify-content: space-evenly;
+
+    align-items: center;
+}
+
+.estagio {
+    width: 20vw;
+    height: 6vh;
+
+    text-align: center;
+
+    border-radius: 2vw;
+
+    background-color: rgb(171, 254, 47);
+    margin: 1vh 0;
+}
+
+.estagio:hover {
+    transform: scale(1.01);
+    cursor: pointer;
+}

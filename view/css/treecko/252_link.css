@@ -1,0 +1,12 @@
+@import url(./252_hd.css);
+@import url(./252_section.css);
+@import url(./252_ft.css);
+
+body{
+    width: 100vw;
+    height: 100vh;
+
+    margin: 0;
+
+    overflow: hidden;
+}

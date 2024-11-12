@@ -1,0 +1,12 @@
+footer{
+    width: 100vw;
+    height: 7vh;
+
+    background-color: rgb(255, 255, 0);
+
+    text-align: center;
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
