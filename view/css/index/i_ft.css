@@ -12,3 +12,16 @@ footer{
     left: 0;
     bottom: 0;
 }
+
+/* botoes pra voltar pro inicio */
+
+.back{
+    width: 20vw;
+    height: 7vh;
+
+    margin: 5vw;
+
+    background-color: rgb(255, 255, 0);
+
+    border: none;
+}

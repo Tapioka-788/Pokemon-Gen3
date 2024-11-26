@@ -1,0 +1,12 @@
+#section {
+    width: 100vw;
+    height: 100vh;
+
+    position: fixed;
+    top: -7vh;
+
+    background-image: url(./../../../model/index\ 3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+

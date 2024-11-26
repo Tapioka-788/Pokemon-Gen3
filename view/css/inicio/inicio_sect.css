@@ -1,0 +1,82 @@
+#section {
+    width: 100vw;
+    height: 93vh;
+
+    position: fixed;
+
+    background-image: url(./../../../model/pokemonGif.gif );
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* latios */
+
+#Latios {
+    position: absolute;
+    top: 15vh;
+    right: -50vw;
+
+    transform: rotate(-30deg);
+
+    animation: latios 5s linear infinite;
+}
+
+@keyframes latios {
+    0% {
+        right: -50vw;
+    }
+    100% {
+        right: 150vw;
+    }
+}
+
+/* entrar */
+
+#box_entrar{
+    width: 15vw;
+    height: 20vh;
+
+    border-radius: 1vw;
+
+    margin: 60vh 42.5vw 0vh;
+
+    background-color: rgba(255, 255, 255, 0.1);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* entrar botao*/
+
+#enter{
+    width: 10vw;
+    height: 5vh;
+
+    border-radius: 2vw;
+
+    background-color: rgb(255, 255, 255);
+}
+
+#enter:hover{
+    transform: scale(1.1);
+
+    cursor: pointer;
+}
+
+/* rodape */
+
+footer{
+    width: 100vw;
+    height: 7vh;
+
+    background-color: rgb(255, 255, 0);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
