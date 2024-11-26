@@ -16,7 +16,7 @@ section {
     height: 50vh;
 
     position: absolute;
-    left: -100vw; 
+    left: 0vw; 
 
     margin-top: -10vh;
 
@@ -58,7 +58,7 @@ section {
     height: 43vh;
 
     position: absolute;
-    left: -100vw; 
+    left: 0vw; 
 
     margin-top: 40vh;
 
