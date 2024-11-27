@@ -1,6 +1,6 @@
 @import url(./i_hd.css);
 @import url(./i_sect.css);
-@import url(./i_ft.css);
+@import url(./../i_ft.css);
 
 body{
     width: 100vw;

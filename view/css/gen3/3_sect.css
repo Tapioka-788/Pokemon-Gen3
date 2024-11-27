@@ -1,0 +1,66 @@
+#section {
+    width: 100vw;
+    height: 100vh;
+
+    position: fixed;
+    top: -7vh;
+
+    background-image: url(./../../../model/index\ 3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+
+#iniciais{
+    width: 40vw;
+    height: 40vh;
+
+    margin: 30vh 30vw;
+
+    border-radius: 2vw;
+
+    background-color: rgba(255, 255, 255, 0.7);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#atalhos{
+    display: flex;
+    flex-direction: column;
+}
+
+.atalhos h1{
+    margin: 2vh -0.75vw;
+}
+
+#img3{
+    width: 20vw;
+    height: 40vh;    
+}
+
+.botoes{
+    width: 3vw;
+    height: 3vw;
+
+    border-radius: 50%;
+    border: none;
+    
+    background-color: rgb(255, 50, 0);
+}
+
+.botoes:hover{
+    transform: scale(1.1);
+}
+
+.pokemons{
+    width: 2vw;
+    height: 2vw;
+}

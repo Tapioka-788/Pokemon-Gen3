@@ -5,8 +5,96 @@
     position: fixed;
     top: -7vh;
 
-    background-image: url(./../../../model/index\ 3.jpg);
+    background-image: url(./../../../model/index\ 4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+#box_gens {
+    width: 40vw;
+    height: 40vh;
+
+    margin: 30vh 30vw;
+
+    border-radius: 2vw;
+
+    background-color: rgba(255, 255, 255, 0.7);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#geracao {
+    font-size: 3vw;
+}
+
+#quadro {
+    margin: 1vh 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#quadroNs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#quadroNs h1 {
+    margin: 0 3.75vw;
+}
+
+.gens_btns {
+    width: 4vw;
+    height: 4vw;
+
+    margin: 1vh 2vw 0vh;
+
+    border-radius: 50%;
+    border: none;
+
+    background-color: rgb(255, 50, 0);
+    color: rgb(255, 255, 255);
+
+    font-size: 1.5vw;
+}
+
+.block {
+    width: 4vw;
+    height: 4vw;
+
+    margin: 1vh 2vw 0vh;
+
+    border-radius: 50%;
+    border: solid 0.2vw rgb(255, 255, 0);
+
+    background-color: rgb(255, 50, 0);
+    color: rgb(255, 255, 255);
+
+    font-size: 1.5vw;
+}
+
+.gens_btns:hover {
+    cursor: pointer;
+
+    transform: scale(1.1);
+}
+
+.block:hover {
+    cursor: pointer;
+
+    transform: scale(1.1);
+}
+
+/* gens mini icons*/
+
+#gen1 {
+    width: 3vw;
+    height: 2vw;
+
+    color: rgb(255, 255, 255);
+}
