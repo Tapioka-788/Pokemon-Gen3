@@ -4,7 +4,7 @@
 
     position: fixed;
 
-    background-image: url(./../../../model/pokemonGif.gif );
+    background-image: url(./../../../model/gen3/pokemonGif.gif );
     background-repeat: no-repeat;
     background-size: cover;
 }

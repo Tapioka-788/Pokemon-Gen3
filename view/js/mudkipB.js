@@ -1,38 +1,37 @@
 const banners = [
     {
-        nome: 'torchic',
-        img: './../../../model/gen3/torchic.png',
+        nome: 'mudkip',
+        img: './../../../model/gen3/mudkip.png',
         id: 'estagio1',
     },
     {
-        nome: 'combusken',
-        img: './../../../model/gen3/combusken.png',
+        nome: 'marshtomp',
+        img: './../../../model/gen3/marshtomp.png',
         id: 'estagio2',
     },
     {
-        nome: 'blaziken',
-        img: './../../../model/gen3/blaziken.png',
+        nome: 'swampert',
+        img: './../../../model/gen3/swampert.png',
         id: 'estagio3',
     },
     {
-        nome: 'blaziken',
-        img: './../../../model/gen3/megablaziken.png',
+        nome: 'megaSwampert',
+        img: './../../../model/gen3/megaswampert.png',
         id: 'estagio3',
     },
 ];
 
-export function bannersTorchic() {
+export function bannersMudkip() {
     let section = document.getElementById('section');
     let mains = document.getElementById('mains');
     mains.style.width = `${banners.length * 100}vw`;
-
 
     for (let i = 0; i < banners.length; i++) {
         let banner = document.createElement('div');
         banner.className = 'mEstagio';
         banner.id = banners[i].nome;
 
-        banner.style.backgroundImage = `url('./../../../../model/background_fogo.jpg')`;
+        banner.style.backgroundImage = `url('./../../../../model/background_agua.jpg')`;
 
         let imagem = document.createElement('img');
         imagem.src = banners[i].img;
@@ -47,32 +46,32 @@ export function bannersTorchic() {
 
 const familia = [
     {
-        nome: "Torchic",
-        numero: "255",
+        nome: "Mudkip",
+        numero: "258",
         descricao:
-            "Torchic é um Pokémon do tipo Fogo que possui um corpo fofo e plumado. Ele é pequeno e carregado de energia, soltando faíscas ao lutar.",
+            "Mudkip é um Pokémon do tipo Água. Ele usa as nadadeiras para detectar mudanças na corrente da água e é um excelente nadador.",
     },
     {
-        nome: "Combusken",
-        numero: "256",
+        nome: "Marshtomp",
+        numero: "259",
         descricao:
-            "Combusken é a evolução de Torchic. Este Pokémon tipo Fogo/Lutador possui pernas poderosas para chutes e é um combatente habilidoso.",
+            "Marshtomp é a evolução de Mudkip. Este Pokémon do tipo Água/Terra é adaptado para viver tanto na terra quanto na água, com membros fortes e resistentes.",
     },
     {
-        nome: "Blaziken",
-        numero: "257",
+        nome: "Swampert",
+        numero: "260",
         descricao:
-            "Blaziken, a evolução final de Torchic, é um guerreiro do tipo Fogo/Lutador. Ele tem chamas em seus punhos e pernas, tornando-o feroz em combate.",
+            "Swampert, a evolução final de Mudkip, é um poderoso Pokémon Água/Terra que pode prever tempestades. É conhecido por sua força bruta e habilidade de nadar rapidamente.",
     },
     {
-        nome: "Mega Blaziken",
-        numero: "257-M",
+        nome: "Mega Swampert",
+        numero: "260-M",
         descricao:
-            "Mega Blaziken, a forma megaevoluída de Blaziken, é um lutador ainda mais poderoso. Suas chamas e força explosiva tornam seus golpes devastadores. Ele é conhecido por sua habilidade *Speed Boost*, que aumenta sua velocidade no combate.",
+            "Mega Swampert, a forma megaevoluída de Swampert, ganha músculos incrivelmente desenvolvidos e se torna ainda mais poderoso. Sua força física é inigualável, e ele se move com incrível velocidade na água.",
     },
 ];
 
-export function criarTorchic(){
+export function criarMudkip() {
     let section = document.getElementById('section');
     let description = document.getElementById('description');
     description.style.width = `${familia.length * 100}vw`;

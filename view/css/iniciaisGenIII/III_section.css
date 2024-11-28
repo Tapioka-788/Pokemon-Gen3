@@ -53,7 +53,6 @@ section {
 }
 
 #description {
-    width: 300vw;
     height: 43vh;
 
     position: absolute;
@@ -65,6 +64,10 @@ section {
     border-top: solid 0.2vw black;
     
     display: flex;
+}
+
+.fundo{
+    width: 100vw;
 }
 
 .desc{

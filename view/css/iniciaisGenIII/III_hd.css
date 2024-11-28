@@ -39,3 +39,15 @@ header {
     transform: scale(1.01);
     cursor: pointer;
 }
+
+#mega{
+    background-color: transparent;
+    border: none;
+
+    margin: none;
+}
+
+#mega img{
+    width: 6vh;
+    height: 6vh;   
+}
