@@ -27,26 +27,25 @@ section {
     width: 100vw;
     height: 50vh;
 
-    background-image: url(./../../../model/background_planta.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-#grovyleImagem{
-    width: 25vw;
-    height: 35vh;
-
-    margin: 14vh 37.5vw 1vh;
-}
-
-#treeckoImagem{
+#estagio1{
     width: 20vw;
     height: 30vh;
 
     margin: 19vh 40vw 1vh;
 }
 
-#sceptileImagem{
+#estagio2{
+    width: 25vw;
+    height: 35vh;
+
+    margin: 14vh 37.5vw 1vh;
+}
+
+#estagio3{
     width: 30vw;
     height: 40vh;
 
