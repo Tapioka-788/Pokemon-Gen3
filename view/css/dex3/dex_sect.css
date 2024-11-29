@@ -2,7 +2,9 @@
     width: 100vw;
     height: 100vh;
 
-    position: fixed;
+    padding: 5vh 7.5vw 0;
+
+    position: absolute;
     top: -7vh;
 
     background-image: url(./../../../model/gen3/index\ 3.jpg);
@@ -13,6 +15,14 @@
 
     justify-content: center;
     align-items: center;
+}
+
+#card{
+    width: 90vw;
+    height: 90vh;
+
+    overflow-x: hidden;
+    overflow-y: scroll;
 
     display: grid;
     grid-template-columns: 12.5vw 12.5vw 12.5vw 12.5vw 12.5vw 12.5vw;
@@ -24,6 +34,8 @@
 
     border-radius: 1vw;
 
+    margin: 2.5vh 0vw;
+
     background-color: rgba(255, 255, 255, 0.9);
 
     display: flex;
@@ -32,9 +44,9 @@
     align-items: center;
 }
 
-.fichas:hover{
+.fichas:hover {
     cursor: pointer;
-    
+
     transform: scale(1.01);
 }
 
